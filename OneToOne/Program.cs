@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 var config = builder.Configuration.GetSection("Connection");
 builder.Services.AddDbContext<SchoolDbContext>(option => option.UseNpgsql(config["connect"]));
-builder.Services.AddScoped<StudentsService>();
+builder.Services.AddScoped<IStudentService, StudentsService>();
 builder.Services.AddScoped<SchoolDbContext>();
 
 builder.Services.AddEndpointsApiExplorer();

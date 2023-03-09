@@ -41,14 +41,14 @@ namespace OneToOne.Migrations
             modelBuilder.Entity("OneToOne.Models.StudentAddres", b =>
                 {
                     b.Property<short>("StudentAddressId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("smallint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<short>("StudentAddressId"));
 
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<int>("AddressOfStudentId")
-                        .HasColumnType("integer");
 
                     b.Property<string>("City")
                         .IsRequired()
@@ -62,7 +62,13 @@ namespace OneToOne.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<short>("StudentId")
+                        .HasColumnType("smallint");
+
                     b.HasKey("StudentAddressId");
+
+                    b.HasIndex("StudentId")
+                        .IsUnique();
 
                     b.ToTable("studentsAddres");
                 });
@@ -71,7 +77,7 @@ namespace OneToOne.Migrations
                 {
                     b.HasOne("OneToOne.Models.Student", "Student")
                         .WithOne("Address")
-                        .HasForeignKey("OneToOne.Models.StudentAddres", "StudentAddressId")
+                        .HasForeignKey("OneToOne.Models.StudentAddres", "StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

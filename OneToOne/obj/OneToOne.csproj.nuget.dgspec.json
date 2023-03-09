@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.net\\OneToOne\\OneToOne\\OneToOne.csproj": {}
+    "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\OneToOne.csproj": {}
   },
   "projects": {
-    "D:\\ASP.net\\OneToOne\\OneToOne\\OneToOne.csproj": {
+    "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\OneToOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.net\\OneToOne\\OneToOne\\OneToOne.csproj",
+        "projectUniqueName": "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\OneToOne.csproj",
         "projectName": "OneToOne",
-        "projectPath": "D:\\ASP.net\\OneToOne\\OneToOne\\OneToOne.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.net\\OneToOne\\OneToOne\\obj\\",
+        "projectPath": "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\OneToOne.csproj",
+        "packagesPath": "C:\\Users\\j.umarov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\j.umarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

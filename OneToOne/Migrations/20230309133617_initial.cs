@@ -26,23 +26,30 @@ namespace OneToOne.Migrations
                 name: "studentsAddres",
                 columns: table => new
                 {
-                    StudentAddressId = table.Column<short>(type: "smallint", nullable: false),
+                    StudentAddressId = table.Column<short>(type: "smallint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Address = table.Column<string>(type: "text", nullable: false),
                     City = table.Column<string>(type: "text", nullable: false),
                     State = table.Column<string>(type: "text", nullable: false),
                     Country = table.Column<string>(type: "text", nullable: false),
-                    AddressOfStudentId = table.Column<int>(type: "integer", nullable: false)
+                    StudentId = table.Column<short>(type: "smallint", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_studentsAddres", x => x.StudentAddressId);
                     table.ForeignKey(
-                        name: "FK_studentsAddres_students_StudentAddressId",
-                        column: x => x.StudentAddressId,
+                        name: "FK_studentsAddres_students_StudentId",
+                        column: x => x.StudentId,
                         principalTable: "students",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_studentsAddres_StudentId",
+                table: "studentsAddres",
+                column: "StudentId",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

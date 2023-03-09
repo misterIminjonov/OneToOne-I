@@ -3,16 +3,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace OneToOne.Models
 {
-    public class StudentAddres
+    public class Address
     {
-        [ForeignKey("Student")]
-        public short StudentAddressId { get; set; }
-        public string Address { get; set; }
+        [Key]
+        public short AddressId { get; set; }
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
-
-        public int AddressOfStudentId { get; set; }
-        public Student Student { get; set; }
+        public short StudentId { get; set; }
     }
 }

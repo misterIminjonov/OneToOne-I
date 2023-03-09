@@ -2,13 +2,18 @@
 
 namespace OneToOne.Service
 {
-    public class StudentsService
+    public class StudentsService : IStudentService
     {
-        private SchoolDbContext _context;
+        private readonly SchoolDbContext _context;
 
         public StudentsService(SchoolDbContext context)
         {
             _context = context;
+        }
+
+        public Student GetStudent(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public short AddStudent(Student student)
@@ -18,11 +23,15 @@ namespace OneToOne.Service
 
             return student.Id;
         }
-        public short AddStudent(StudentAddres studentAddres)
+
+        public Student UpdateStudent(int id, Student student)
         {
-            _context.studentsAddres.Add(studentAddres);
-            _context.SaveChanges();
-            return studentAddres.StudentAddressId;
+            throw new NotImplementedException();
+        }
+
+        public int DeleteStudent(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
