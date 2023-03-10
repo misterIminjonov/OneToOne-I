@@ -13,13 +13,12 @@ namespace OneToOne.Models
         {
             modelBuilder.Entity<Student>()
                 .HasOne(s => s.Address)
-                .WithOne(ad => ad.StudentId)
-                .HasForeignKey<StudentAddress>(ad => ad.StudentId);
+                .WithOne(ad => ad.Student);
+               // .HasForeignKey<StudentAddress>(ad => ad.Student);
+
+
+
         }
-
-
-
-            //}
         public DbSet<Student> Student { get; set; }
         public DbSet<StudentAddress> StudentAddress { get; set; }
     }
