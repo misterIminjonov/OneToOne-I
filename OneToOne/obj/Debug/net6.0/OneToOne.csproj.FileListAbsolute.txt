@@ -39,3 +39,44 @@ C:\Users\j.umarov\Desktop\edu\cdars\OneToOne\obj\Debug\net6.0\refint\OneToOne.dl
 C:\Users\j.umarov\Desktop\edu\cdars\OneToOne\obj\Debug\net6.0\OneToOne.pdb
 C:\Users\j.umarov\Desktop\edu\cdars\OneToOne\obj\Debug\net6.0\OneToOne.genruntimeconfig.cache
 C:\Users\j.umarov\Desktop\edu\cdars\OneToOne\obj\Debug\net6.0\ref\OneToOne.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.csproj.AssemblyReference.cache
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.AssemblyInfoInputs.cache
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.AssemblyInfo.cs
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.csproj.CoreCompileInputs.cache
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\appsettings.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\OneToOne.exe
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\OneToOne.deps.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\OneToOne.runtimeconfig.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\OneToOne.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\OneToOne.pdb
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Humanizer.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Npgsql.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets\msbuild.OneToOne.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets\msbuild.build.OneToOne.props
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.OneToOne.props
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.OneToOne.props
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\scopedcss\bundle\OneToOne.styles.css
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.csproj.CopyComplete
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\refint\OneToOne.dll
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.pdb
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\OneToOne.genruntimeconfig.cache
+C:\Users\gofur\OneDrive\Рабочий стол\GitTest\OneToOne\OneToOne\obj\Debug\net6.0\ref\OneToOne.dll

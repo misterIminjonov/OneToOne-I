@@ -9,17 +9,18 @@ namespace OneToOne.Models
         {
 
         }
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    //modelBuilder.Entity<Student>()
-        //    //    .HasOne(s => s.Address)
-        //    //    .WithOne(ad => ad.Student)
-        //    //    .HasForeignKey<StudentAddres>(ad => ad.StudentId);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Student>()
+                .HasOne(s => s.Address)
+                .WithOne(ad => ad.StudentId)
+                .HasForeignKey<StudentAddress>(ad => ad.StudentId);
+        }
 
 
-            
-        //}
-        public DbSet<Student> students { get; set; }
-        public DbSet<StudentAddres> studentsAddres { get; set; }
+
+            //}
+        public DbSet<Student> Student { get; set; }
+        public DbSet<StudentAddress> StudentAddress { get; set; }
     }
 }

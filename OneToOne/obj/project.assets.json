@@ -1036,19 +1036,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\j.umarov\\.nuget\\packages\\": {}
+    "C:\\Users\\gofur\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\OneToOne.csproj",
+      "projectUniqueName": "C:\\Users\\gofur\\OneDrive\\Рабочий стол\\GitTest\\OneToOne\\OneToOne\\OneToOne.csproj",
       "projectName": "OneToOne",
-      "projectPath": "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\OneToOne.csproj",
-      "packagesPath": "C:\\Users\\j.umarov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\j.umarov\\Desktop\\edu\\cdars\\OneToOne\\obj\\",
+      "projectPath": "C:\\Users\\gofur\\OneDrive\\Рабочий стол\\GitTest\\OneToOne\\OneToOne\\OneToOne.csproj",
+      "packagesPath": "C:\\Users\\gofur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gofur\\OneDrive\\Рабочий стол\\GitTest\\OneToOne\\OneToOne\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\j.umarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gofur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1118,7 +1123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

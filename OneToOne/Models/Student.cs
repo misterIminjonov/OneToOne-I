@@ -8,7 +8,7 @@ namespace OneToOne.Models
        
         public string Name { get; set; }
        
-        public StudentAddres Address { get; set; }
+        public StudentAddress Address { get; set; }
 
     }
 }

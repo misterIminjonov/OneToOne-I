@@ -16,12 +16,11 @@ namespace OneToOne.Service
             throw new NotImplementedException();
         }
 
-        public short AddStudent(Student student)
+        public Student AddStudent(Student student)
         {
-            _context.students.Add(student);
+            _context.Student.Add(student);
             _context.SaveChanges();
-
-            return student.Id;
+            return student;
         }
 
         public Student UpdateStudent(int id, Student student)
@@ -30,6 +29,11 @@ namespace OneToOne.Service
         }
 
         public int DeleteStudent(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        short IStudentService.AddStudent(Student student)
         {
             throw new NotImplementedException();
         }

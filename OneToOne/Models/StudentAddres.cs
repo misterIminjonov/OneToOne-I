@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace OneToOne.Models
 {
-    public class Address
+    public class StudentAddress
     {
         [Key]
         public short AddressId { get; set; }

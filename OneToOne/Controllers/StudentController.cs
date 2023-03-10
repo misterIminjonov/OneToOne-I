@@ -19,7 +19,6 @@ namespace OneToOne.Controllers
         public ActionResult<short> CreateStudent(Student student)
         {
             _studentsService.AddStudent(student);
-            
             return Ok(student);
         }
 
